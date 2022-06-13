@@ -1,4 +1,4 @@
-### StartManagedFolderAssistant.ps1
+### Start-ManagedFolderAssistant
 
 This script is to 'kickstart' MRM. Due to MFA running at the lowest possible priority, 
 if any resource need the mailbox while MFA runs, it will stop running. Per Microsoft, the current workaround is 
