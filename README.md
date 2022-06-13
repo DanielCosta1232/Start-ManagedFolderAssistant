@@ -8,6 +8,6 @@ You will need to reauthenticate once the script loops or you can enter credentia
 limited perimissions) under the '#variables' section to automate the process. If you do decide to automate the script, 
 you will also need to change 'Connect-Exo' to 'AutoConnect-Exo' within the script.
 
-This script will attempt to run MFA once every 15 minutes for the user specified. This is usually used in extreme cases where MFA has not processed in months and a mailbox has reached 50+ GBs in size. (Exchange online has an 100GB mailbox limit.)
+The script will attempt to run MFA once every 15 minutes for the user specified. This is usually used in extreme cases where MFA has not processed in months and a mailbox has reached 50+ GBs in size. (Exchange online has an 100GB mailbox limit.)
 
-This method is usually used in conjunction with the [MRM diagnostic script](https://gallery.technet.microsoft.com/office/Powershell-script-to-2489e63b)
+This method is usually used in conjunction with the MRM diagnostic script from Microsoft.
